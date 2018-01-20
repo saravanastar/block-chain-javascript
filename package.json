@@ -1,0 +1,30 @@
+{
+  "name": "block-chain-javascript",
+  "version": "1.0.0",
+  "description": "example of block chain in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saravanastar/block-chain-javascript.git"
+  },
+  "keywords": [
+    "blockchain",
+    "block-chain",
+    "javascript",
+    "ledger"
+  ],
+  "author": "Saravanakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saravanastar/block-chain-javascript/issues"
+  },
+  "homepage": "https://github.com/saravanastar/block-chain-javascript#readme",
+  "devDependencies": {
+    "crypto-js": "^3.1.9-1",
+    "install": "^0.10.2",
+    "npm": "^5.6.0"
+  }
+}
