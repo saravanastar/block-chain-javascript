@@ -1,18 +1,18 @@
-// let Block = require('./Block')
-let sha256 = require("crypto-js/sha256");
-class Block {
-  constructor(data, previousHash) {
-    this.data = data;
-
-    this.previousHash = previousHash;
-    this.nonce = 0;
-    this.hash = this.buildHash();
-    this.timestamp = new Date();
-  }
-  buildHash() {
-      return sha256(JSON.stringify(this.data).toString() + this.nonce + this.timestamp + this.previousHash).toString();
-  }
-}
+let Block = require('./Block')
+// let sha256 = require("crypto-js/sha256");
+// class Block {
+//   constructor(data, previousHash) {
+//     this.data = data;
+//
+//     this.previousHash = previousHash;
+//     this.nonce = 0;
+//     this.hash = this.buildHash();
+//     this.timestamp = new Date();
+//   }
+//   buildHash() {
+//       return sha256(JSON.stringify(this.data).toString() + this.nonce + this.timestamp + this.previousHash).toString();
+//   }
+// }
 
 class BlockChain {
   constructor() {
